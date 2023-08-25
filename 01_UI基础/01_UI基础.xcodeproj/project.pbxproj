@@ -28,6 +28,13 @@
 		3972048F2A9736E60073E5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3972048E2A9736E60073E5FB /* Assets.xcassets */; };
 		397204922A9736E60073E5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397204902A9736E60073E5FB /* LaunchScreen.storyboard */; };
 		397204952A9736E60073E5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204942A9736E60073E5FB /* main.m */; };
+		397204A12A975E120073E5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204A02A975E120073E5FB /* AppDelegate.m */; };
+		397204A42A975E120073E5FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204A32A975E120073E5FB /* SceneDelegate.m */; };
+		397204A72A975E120073E5FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204A62A975E120073E5FB /* ViewController.m */; };
+		397204AA2A975E120073E5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397204A82A975E120073E5FB /* Main.storyboard */; };
+		397204AC2A975E120073E5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397204AB2A975E120073E5FB /* Assets.xcassets */; };
+		397204AF2A975E120073E5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397204AD2A975E120073E5FB /* LaunchScreen.storyboard */; };
+		397204B22A975E120073E5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204B12A975E120073E5FB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +74,18 @@
 		397204912A9736E60073E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		397204932A9736E60073E5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397204942A9736E60073E5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3972049D2A975E110073E5FB /* 加法计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加法计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3972049F2A975E120073E5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		397204A02A975E120073E5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		397204A22A975E120073E5FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		397204A32A975E120073E5FB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		397204A52A975E120073E5FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		397204A62A975E120073E5FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		397204A92A975E120073E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		397204AB2A975E120073E5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397204AE2A975E120073E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		397204B02A975E120073E5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397204B12A975E120073E5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3972049A2A975E110073E5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +126,7 @@
 				397204252A9618360073E5FB /* 01_UI基础 */,
 				397204612A96FA2C0073E5FB /* 02_改变文字颜色 */,
 				397204812A9736E50073E5FB /* 03_父子控件 */,
+				3972049E2A975E120073E5FB /* 加法计算器 */,
 				397204242A9618360073E5FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,6 +137,7 @@
 				397204232A9618360073E5FB /* 01_UI基础.app */,
 				397204602A96FA2C0073E5FB /* 02_改变文字颜色.app */,
 				397204802A9736E50073E5FB /* 03_父子控件.app */,
+				3972049D2A975E110073E5FB /* 加法计算器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +196,24 @@
 			path = "03_父子控件";
 			sourceTree = "<group>";
 		};
+		3972049E2A975E120073E5FB /* 加法计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				3972049F2A975E120073E5FB /* AppDelegate.h */,
+				397204A02A975E120073E5FB /* AppDelegate.m */,
+				397204A22A975E120073E5FB /* SceneDelegate.h */,
+				397204A32A975E120073E5FB /* SceneDelegate.m */,
+				397204A52A975E120073E5FB /* ViewController.h */,
+				397204A62A975E120073E5FB /* ViewController.m */,
+				397204A82A975E120073E5FB /* Main.storyboard */,
+				397204AB2A975E120073E5FB /* Assets.xcassets */,
+				397204AD2A975E120073E5FB /* LaunchScreen.storyboard */,
+				397204B02A975E120073E5FB /* Info.plist */,
+				397204B12A975E120073E5FB /* main.m */,
+			);
+			path = "加法计算器";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,6 +268,23 @@
 			productReference = 397204802A9736E50073E5FB /* 03_父子控件.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3972049C2A975E110073E5FB /* 加法计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397204B52A975E120073E5FB /* Build configuration list for PBXNativeTarget "加法计算器" */;
+			buildPhases = (
+				397204992A975E110073E5FB /* Sources */,
+				3972049A2A975E110073E5FB /* Frameworks */,
+				3972049B2A975E110073E5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加法计算器";
+			productName = "加法计算器";
+			productReference = 3972049D2A975E110073E5FB /* 加法计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,6 +301,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					3972047F2A9736E50073E5FB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3972049C2A975E110073E5FB = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -258,6 +324,7 @@
 				397204222A9618360073E5FB /* 01_UI基础 */,
 				3972045F2A96FA2C0073E5FB /* 02_改变文字颜色 */,
 				3972047F2A9736E50073E5FB /* 03_父子控件 */,
+				3972049C2A975E110073E5FB /* 加法计算器 */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +357,16 @@
 				397204922A9736E60073E5FB /* LaunchScreen.storyboard in Resources */,
 				3972048F2A9736E60073E5FB /* Assets.xcassets in Resources */,
 				3972048D2A9736E50073E5FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3972049B2A975E110073E5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397204AF2A975E120073E5FB /* LaunchScreen.storyboard in Resources */,
+				397204AC2A975E120073E5FB /* Assets.xcassets in Resources */,
+				397204AA2A975E120073E5FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +403,17 @@
 				397204842A9736E50073E5FB /* AppDelegate.m in Sources */,
 				397204952A9736E60073E5FB /* main.m in Sources */,
 				397204872A9736E50073E5FB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397204992A975E110073E5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397204A72A975E120073E5FB /* ViewController.m in Sources */,
+				397204A12A975E120073E5FB /* AppDelegate.m in Sources */,
+				397204B22A975E120073E5FB /* main.m in Sources */,
+				397204A42A975E120073E5FB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +464,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				397204912A9736E60073E5FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		397204A82A975E120073E5FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397204A92A975E120073E5FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		397204AD2A975E120073E5FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397204AE2A975E120073E5FB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -657,6 +761,60 @@
 			};
 			name = Release;
 		};
+		397204B32A975E120073E5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397204B42A975E120073E5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +850,15 @@
 			buildConfigurations = (
 				397204962A9736E60073E5FB /* Debug */,
 				397204972A9736E60073E5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397204B52A975E120073E5FB /* Build configuration list for PBXNativeTarget "加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397204B32A975E120073E5FB /* Debug */,
+				397204B42A975E120073E5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

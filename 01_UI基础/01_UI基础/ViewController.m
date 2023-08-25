@@ -17,6 +17,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)sum {
+}
 
 
+- (IBAction)sum {
+}
+- (IBAction)sum:(UIButton *)sender {
+}
 @end

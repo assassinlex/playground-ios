@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391DEBD62AB1A3EF00AA802B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 391DEBD52AB1A3EF00AA802B /* AppDelegate.m */; };
+		391DEBD92AB1A3EF00AA802B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 391DEBD82AB1A3EF00AA802B /* SceneDelegate.m */; };
+		391DEBDC2AB1A3EF00AA802B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391DEBDB2AB1A3EF00AA802B /* ViewController.m */; };
+		391DEBDF2AB1A3EF00AA802B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391DEBDD2AB1A3EF00AA802B /* Main.storyboard */; };
+		391DEBE12AB1A3F000AA802B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391DEBE02AB1A3F000AA802B /* Assets.xcassets */; };
+		391DEBE42AB1A3F000AA802B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391DEBE22AB1A3F000AA802B /* LaunchScreen.storyboard */; };
+		391DEBE72AB1A3F000AA802B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 391DEBE62AB1A3F000AA802B /* main.m */; };
+		391DEBF62AB2ED5700AA802B /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 391DEBF52AB2ED5700AA802B /* ShopView.xib */; };
+		391DEBF92AB2ED8D00AA802B /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391DEBF82AB2ED8D00AA802B /* ShopView.m */; };
 		397204282A9618360073E5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397204272A9618360073E5FB /* AppDelegate.m */; };
 		3972042B2A9618360073E5FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3972042A2A9618360073E5FB /* SceneDelegate.m */; };
 		3972042E2A9618360073E5FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3972042D2A9618360073E5FB /* ViewController.m */; };
@@ -296,9 +305,31 @@
 		397209352A9EDB5B0073E5FB /* xiaozhao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 397208372A9EDB5B0073E5FB /* xiaozhao3.mp3 */; };
 		397209362A9EDB5B0073E5FB /* xiaozhao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 397208382A9EDB5B0073E5FB /* xiaozhao1.mp3 */; };
 		397209372A9EDB5B0073E5FB /* dazhao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 397208392A9EDB5B0073E5FB /* dazhao.mp3 */; };
+		397209402A9EDC820073E5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3972093F2A9EDC820073E5FB /* AppDelegate.m */; };
+		397209432A9EDC820073E5FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397209422A9EDC820073E5FB /* SceneDelegate.m */; };
+		397209462A9EDC820073E5FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397209452A9EDC820073E5FB /* ViewController.m */; };
+		397209492A9EDC820073E5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397209472A9EDC820073E5FB /* Main.storyboard */; };
+		3972094B2A9EDC820073E5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3972094A2A9EDC820073E5FB /* Assets.xcassets */; };
+		3972094E2A9EDC820073E5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3972094C2A9EDC820073E5FB /* LaunchScreen.storyboard */; };
+		397209512A9EDC820073E5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397209502A9EDC820073E5FB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391DEBD22AB1A3EE00AA802B /* 07_xib自定义view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07_xib自定义view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391DEBD42AB1A3EF00AA802B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		391DEBD52AB1A3EF00AA802B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		391DEBD72AB1A3EF00AA802B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		391DEBD82AB1A3EF00AA802B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		391DEBDA2AB1A3EF00AA802B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		391DEBDB2AB1A3EF00AA802B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		391DEBDE2AB1A3EF00AA802B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391DEBE02AB1A3F000AA802B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391DEBE32AB1A3F000AA802B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391DEBE52AB1A3F000AA802B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391DEBE62AB1A3F000AA802B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		391DEBF52AB2ED5700AA802B /* ShopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopView.xib; sourceTree = "<group>"; };
+		391DEBF72AB2ED8D00AA802B /* ShopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
+		391DEBF82AB2ED8D00AA802B /* ShopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		397204232A9618360073E5FB /* 01_UI基础.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01_UI基础.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		397204262A9618360073E5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		397204272A9618360073E5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -613,9 +644,28 @@
 		397208372A9EDB5B0073E5FB /* xiaozhao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xiaozhao3.mp3; sourceTree = "<group>"; };
 		397208382A9EDB5B0073E5FB /* xiaozhao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xiaozhao1.mp3; sourceTree = "<group>"; };
 		397208392A9EDB5B0073E5FB /* dazhao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dazhao.mp3; sourceTree = "<group>"; };
+		3972093C2A9EDC820073E5FB /* 06_UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 06_UIButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3972093E2A9EDC820073E5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3972093F2A9EDC820073E5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		397209412A9EDC820073E5FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		397209422A9EDC820073E5FB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		397209442A9EDC820073E5FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		397209452A9EDC820073E5FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		397209482A9EDC820073E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3972094A2A9EDC820073E5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3972094D2A9EDC820073E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3972094F2A9EDC820073E5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397209502A9EDC820073E5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		391DEBCF2AB1A3EE00AA802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		397204202A9618360073E5FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -651,9 +701,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397209392A9EDC810073E5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391DEBD32AB1A3EF00AA802B /* 07_xib自定义view */ = {
+			isa = PBXGroup;
+			children = (
+				391DEBD42AB1A3EF00AA802B /* AppDelegate.h */,
+				391DEBD52AB1A3EF00AA802B /* AppDelegate.m */,
+				391DEBD72AB1A3EF00AA802B /* SceneDelegate.h */,
+				391DEBD82AB1A3EF00AA802B /* SceneDelegate.m */,
+				391DEBDA2AB1A3EF00AA802B /* ViewController.h */,
+				391DEBDB2AB1A3EF00AA802B /* ViewController.m */,
+				391DEBDD2AB1A3EF00AA802B /* Main.storyboard */,
+				391DEBE02AB1A3F000AA802B /* Assets.xcassets */,
+				391DEBE22AB1A3F000AA802B /* LaunchScreen.storyboard */,
+				391DEBE52AB1A3F000AA802B /* Info.plist */,
+				391DEBE62AB1A3F000AA802B /* main.m */,
+				391DEBF52AB2ED5700AA802B /* ShopView.xib */,
+				391DEBF72AB2ED8D00AA802B /* ShopView.h */,
+				391DEBF82AB2ED8D00AA802B /* ShopView.m */,
+			);
+			path = "07_xib自定义view";
+			sourceTree = "<group>";
+		};
 		3972041A2A9618360073E5FB = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +740,8 @@
 				397204812A9736E50073E5FB /* 03_父子控件 */,
 				397206FC2A9EDA0A0073E5FB /* 04_加法计算器 */,
 				397207192A9EDA580073E5FB /* 05_拳皇 */,
+				3972093D2A9EDC820073E5FB /* 06_UIButton */,
+				391DEBD32AB1A3EF00AA802B /* 07_xib自定义view */,
 				397204242A9618360073E5FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -674,6 +754,8 @@
 				397204802A9736E50073E5FB /* 03_父子控件.app */,
 				397206FB2A9EDA0A0073E5FB /* 04_加法计算器.app */,
 				397207182A9EDA580073E5FB /* 05_拳皇.app */,
+				3972093C2A9EDC820073E5FB /* 06_UIButton.app */,
+				391DEBD22AB1A3EE00AA802B /* 07_xib自定义view.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1110,9 +1192,44 @@
 			path = sound;
 			sourceTree = "<group>";
 		};
+		3972093D2A9EDC820073E5FB /* 06_UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3972093E2A9EDC820073E5FB /* AppDelegate.h */,
+				3972093F2A9EDC820073E5FB /* AppDelegate.m */,
+				397209412A9EDC820073E5FB /* SceneDelegate.h */,
+				397209422A9EDC820073E5FB /* SceneDelegate.m */,
+				397209442A9EDC820073E5FB /* ViewController.h */,
+				397209452A9EDC820073E5FB /* ViewController.m */,
+				397209472A9EDC820073E5FB /* Main.storyboard */,
+				3972094A2A9EDC820073E5FB /* Assets.xcassets */,
+				3972094C2A9EDC820073E5FB /* LaunchScreen.storyboard */,
+				3972094F2A9EDC820073E5FB /* Info.plist */,
+				397209502A9EDC820073E5FB /* main.m */,
+			);
+			path = 06_UIButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		391DEBD12AB1A3EE00AA802B /* 07_xib自定义view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391DEBEA2AB1A3F000AA802B /* Build configuration list for PBXNativeTarget "07_xib自定义view" */;
+			buildPhases = (
+				391DEBCE2AB1A3EE00AA802B /* Sources */,
+				391DEBCF2AB1A3EE00AA802B /* Frameworks */,
+				391DEBD02AB1A3EE00AA802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_xib自定义view";
+			productName = "07_xib自定义view";
+			productReference = 391DEBD22AB1A3EE00AA802B /* 07_xib自定义view.app */;
+			productType = "com.apple.product-type.application";
+		};
 		397204222A9618360073E5FB /* 01_UI基础 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3972043C2A9618370073E5FB /* Build configuration list for PBXNativeTarget "01_UI基础" */;
@@ -1198,6 +1315,23 @@
 			productReference = 397207182A9EDA580073E5FB /* 05_拳皇.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3972093B2A9EDC810073E5FB /* 06_UIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397209542A9EDC820073E5FB /* Build configuration list for PBXNativeTarget "06_UIButton" */;
+			buildPhases = (
+				397209382A9EDC810073E5FB /* Sources */,
+				397209392A9EDC810073E5FB /* Frameworks */,
+				3972093A2A9EDC810073E5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 06_UIButton;
+			productName = 06_UIButton;
+			productReference = 3972093C2A9EDC820073E5FB /* 06_UIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1207,6 +1341,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					391DEBD12AB1A3EE00AA802B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					397204222A9618360073E5FB = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -1220,6 +1357,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					397207172A9EDA580073E5FB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3972093B2A9EDC810073E5FB = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -1242,11 +1382,24 @@
 				3972047F2A9736E50073E5FB /* 03_父子控件 */,
 				397206FA2A9EDA0A0073E5FB /* 04_加法计算器 */,
 				397207172A9EDA580073E5FB /* 05_拳皇 */,
+				3972093B2A9EDC810073E5FB /* 06_UIButton */,
+				391DEBD12AB1A3EE00AA802B /* 07_xib自定义view */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		391DEBD02AB1A3EE00AA802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391DEBE42AB1A3F000AA802B /* LaunchScreen.storyboard in Resources */,
+				391DEBE12AB1A3F000AA802B /* Assets.xcassets in Resources */,
+				391DEBF62AB2ED5700AA802B /* ShopView.xib in Resources */,
+				391DEBDF2AB1A3EF00AA802B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		397204212A9618360073E5FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1551,9 +1704,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3972093A2A9EDC810073E5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3972094E2A9EDC820073E5FB /* LaunchScreen.storyboard in Resources */,
+				3972094B2A9EDC820073E5FB /* Assets.xcassets in Resources */,
+				397209492A9EDC820073E5FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		391DEBCE2AB1A3EE00AA802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391DEBDC2AB1A3EF00AA802B /* ViewController.m in Sources */,
+				391DEBD62AB1A3EF00AA802B /* AppDelegate.m in Sources */,
+				391DEBE72AB1A3F000AA802B /* main.m in Sources */,
+				391DEBF92AB2ED8D00AA802B /* ShopView.m in Sources */,
+				391DEBD92AB1A3EF00AA802B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3972041F2A9618360073E5FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1609,9 +1784,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397209382A9EDC810073E5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397209462A9EDC820073E5FB /* ViewController.m in Sources */,
+				397209402A9EDC820073E5FB /* AppDelegate.m in Sources */,
+				397209512A9EDC820073E5FB /* main.m in Sources */,
+				397209432A9EDC820073E5FB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		391DEBDD2AB1A3EF00AA802B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391DEBDE2AB1A3EF00AA802B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		391DEBE22AB1A3F000AA802B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391DEBE32AB1A3F000AA802B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		3972042F2A9618360073E5FB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1692,9 +1894,79 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		397209472A9EDC820073E5FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397209482A9EDC820073E5FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3972094C2A9EDC820073E5FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3972094D2A9EDC820073E5FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		391DEBE82AB1A3F000AA802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "07_xib自定义view/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-7-xib---view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		391DEBE92AB1A3F000AA802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "07_xib自定义view/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-7-xib---view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3972043A2A9618370073E5FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2077,9 +2349,72 @@
 			};
 			name = Release;
 		};
+		397209522A9EDC820073E5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 06_UIButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-6-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397209532A9EDC820073E5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 523GJRNN95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 06_UIButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "base.ui.lex.-6-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		391DEBEA2AB1A3F000AA802B /* Build configuration list for PBXNativeTarget "07_xib自定义view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391DEBE82AB1A3F000AA802B /* Debug */,
+				391DEBE92AB1A3F000AA802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3972041E2A9618360073E5FB /* Build configuration list for PBXProject "01_UI基础" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2130,6 +2465,15 @@
 			buildConfigurations = (
 				3972072F2A9EDA590073E5FB /* Debug */,
 				397207302A9EDA590073E5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397209542A9EDC820073E5FB /* Build configuration list for PBXNativeTarget "06_UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397209522A9EDC820073E5FB /* Debug */,
+				397209532A9EDC820073E5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
